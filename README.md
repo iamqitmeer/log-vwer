@@ -76,22 +76,11 @@ async function startServer() {
       mongoUrl: 'mongodb://localhost:27017/my_app_logs',
     });
 
-    // === Part 2: Secure your dashboard (Very Important!) ===
-    // This is a simple password check. You should use your own, real login system.
-    const myAuthMiddleware = (req, res, next) => {
-      // Example: Check for a secret password in the request
-      if (req.headers.authorization === 'Bearer my-secret-token') {
-        next(); // Password is correct, show the page.
-      } else {
-        res.status(401).send('Access Denied: You need the secret token!');
-      }
-    };
-
-    // === Part 3: Activate the dashboard ===
+    // === Part 2: Activate the dashboard ===
     // This tells your app: "When someone goes to /_logs, first check the password, then show the log dashboard."
     app.use('/_logs', myAuthMiddleware, viewerMiddleware(logger));
 
-    // === Part 4: Start using your new logger! ===
+    // === Part 3: Start using your new logger! ===
     // Now, instead of console.log, use logger.info, logger.error, etc.
     app.get('/', (req, res) => {
       logger.info('A user visited the homepage!', { 
