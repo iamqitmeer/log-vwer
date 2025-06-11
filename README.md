@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/iamqitmeer/log-vwer">
-    <img src="https://user-images.githubusercontent.com/26296603/209424439-384594c7-1422-45d6-84d5-c1e19379659b.gif" alt="log-vwer Dashboard Preview" />
+    <img src="https://beeimg.com/images/u17697764994.png" alt="log-vwer Dashboard Preview" />
   </a>
   <br>
   <i>Your application logs, beautifully organized & instantly accessible.</i>
