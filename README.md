@@ -11,7 +11,7 @@
     <img src="https://user-images.githubusercontent.com/26296603/209424439-384594c7-1422-45d6-84d5-c1e19379659b.gif" alt="log-vwer Dashboard Preview" />
   </a>
   <br>
-  <i>Your application logs, beautifully organized and instantly accessible.</i>
+  <i>Your application logs, beautifully organized & instantly accessible.</i>
 </p>
 
 ---
