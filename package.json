@@ -1,0 +1,44 @@
+
+{
+  "name": "log-vwer",
+"version": "1.0.1", 
+  "description": "The ultimate plug-n-play log viewer for Node.js. Go from zero to a production-ready log dashboard in under 2 minutes.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "viewer",
+    "express",
+    "mongodb",
+    "logs",
+    "monitoring",
+    "dev-tools",
+    "dashboard",
+    "admin"
+  ],
+  "author": "Qitmeer Raza (https://github.com/iamqitmeer)",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "files": [
+    "src/",
+    "public/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamqitmeer/log-vwer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamqitmeer/log-vwer/issues"
+  },
+  "homepage": "https://github.com/iamqitmeer/log-vwer#readme"
+}
