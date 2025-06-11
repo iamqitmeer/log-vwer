@@ -9,6 +9,9 @@
 <p align="center">
   <a href="https://github.com/iamqitmeer/log-vwer">
     <img src="https://beeimg.com/images/u17697764994.png" alt="log-vwer Dashboard Preview" />
+---
+---
+    <img src="https://beeimg.com/images/y96901749943.png" alt="log-vwer Dashboard Preview" />
   </a>
   <br>
   <i>Your application logs, beautifully organized & instantly accessible.</i>
